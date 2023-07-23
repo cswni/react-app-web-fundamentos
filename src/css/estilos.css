@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu {
+    @apply flex flex-col w-full gap-6 mt-10;
+}
+#menu li{
+    @apply w-full;
+}
+#menu li a{
+    @apply flex items-center justify-start w-full border border-transparent rounded-lg bg-rose-200 hover:border-red-500 hover:bg-rose-50 hover:font-bold ;
+}
+#menu li a .icono{
+    @apply w-2/12 p-4 bg-blue-200 rounded-l-lg;
+}
+#menu li a .texto{
+    @apply flex-1 p-4 text-lg font-bold text-gray-700;
+}
