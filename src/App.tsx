@@ -6,6 +6,9 @@ import {
   MdArrowBack,
   MdHome,
   MdQueueMusic,
+  MdLocationOn,
+  MdOutlineInsertEmoticon,
+  MdHelp,
 } from 'react-icons/md';
 
 export default function App() {
@@ -72,7 +75,7 @@ export default function App() {
             <li>
               <a href="#">
                 <span className="icono">
-                  <MdHome size={36} />
+                  <MdLocationOn size={36} />
                 </span>
                 <span className="texto">Sedes</span>
               </a>
@@ -80,7 +83,7 @@ export default function App() {
             <li>
               <a href="#">
                 <span className="icono">
-                  <MdHome size={36} />
+                  <MdOutlineInsertEmoticon size={36} />
                 </span>
                 <span className="texto">Promociones</span>
               </a>
@@ -88,7 +91,7 @@ export default function App() {
             <li>
               <a href="#">
                 <span className="icono">
-                  <MdHome size={36} />
+                  <MdHelp size={36} />
                 </span>
                 <span className="texto">Ayuda</span>
               </a>
