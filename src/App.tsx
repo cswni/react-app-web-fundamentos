@@ -1,5 +1,5 @@
 import './css/estilos.css';
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 
 import { Inicio } from './pages/Inicio';

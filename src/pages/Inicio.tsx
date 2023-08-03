@@ -1,8 +1,6 @@
 import { Title } from '../components/Title';
 
-type Props = {};
-
-export const Inicio = (props: Props) => {
+export const Inicio = () => {
   return (
     <>
       <Title titulo="Bienvenido!" />

@@ -1,9 +1,6 @@
-import React from 'react'
 import { Title } from '../components/Title'
 
-type Props = {}
-
-export const Sedes = (props: Props) => {
+export const Sedes = () => {
   return (
     <>
       <Title titulo="Sedes de los eventos!" />
